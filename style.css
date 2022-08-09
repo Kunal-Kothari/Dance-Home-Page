@@ -1,0 +1,169 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #F5F2F0;
+   
+}
+/* Navbar Section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+}
+.nav-list{
+    margin-right: 60px;
+}
+.navbar img{
+    width: 100px;
+    margin-left: 60px; 
+}
+.nav-line{
+    margin-top: 17px;
+    width: 300px;
+    height: 2px;
+    background-color: #000000
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+     gap:6rem;
+     font-size: large;
+}
+
+/* Hero-contain Section */
+
+.hero-container{
+display: flex;
+}
+/* hero-container-left */
+
+.hero-container-left{
+width: 550px;
+}
+.hero-container-left img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 500px;
+    z-index: -1;
+    height:720px;
+    object-fit: cover;
+}
+
+.hero-container-right{
+    width: 62rem;
+    height: 626px;
+}
+.top{
+    display: flex;
+    height: 250px;
+    width: 61rem;
+    justify-content: space-between;
+}
+.heading-1{
+    font-size:150px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Merriweather"; 
+    font-weight: 600;
+    position: absolute;
+    top: 51px;
+}
+.heading-2{
+    font-family: "Merriweather";
+    font-size: 150px;
+    position: absolute;
+    top:170px;
+    left: 665px;
+    font-weight: 600;
+    color: #333333;
+}
+.content{
+    font-size: 35px;
+    position: relative;
+    top: 138px;
+    left: 140px;
+    font-family: "Merriweather";
+    color: #828282;
+}
+
+.sm-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 70px;
+    width: 30px;
+    height: 220px;
+}
+.btn{
+   
+    margin-left:610px
+}
+.btn button{
+    padding: 18px 60px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+    font-size: 18px;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.line{
+    width:2px;
+    height:320px;
+    background-color: #403a3a;
+    position: absolute;
+    left: 528px;
+    bottom: 0px;
+}
+.list{
+    font-size:20px;
+    line-height:3;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+}
+.list ul>li:first{
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #828282;
+    position: absolute;
+    left: 518px;
+   
+}
+.bottom-img img:last-child{
+    width:350px;
+    height:190px;
+}
+.bottom-img img:first-child{
+width:60px;
+}
+.bottom-img p{
+    font-size:20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.arrow img{
+    width: 35px;
+    height: 110px;
+    position: relative;
+    top: 137px;
+    right: 130px;
+}
